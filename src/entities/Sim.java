@@ -27,7 +27,7 @@ public class Sim {
         for (int i = 0; i <= numCalls; i++) {
             Call call = lastCalls[i];
             System.out.println("Number called: " + call.getNumberCalled());
-            System.out.println("Call Duration: " + call.getDuration());
+            System.out.println("Call Duration: " + call.getDuration() + "min");
             System.out.println("-----------------------");
         }
     }
