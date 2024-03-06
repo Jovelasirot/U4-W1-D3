@@ -1,6 +1,8 @@
 package entities;
 
 
+import java.util.Arrays;
+
 public class Sim {
     private String phoneNumber;
     private double remainingLoad;
@@ -27,7 +29,7 @@ public class Sim {
         for (int i = 0; i <= numCalls; i++) {
             Call call = lastCalls[i];
             System.out.println("Number called: " + call.getNumberCalled());
-            System.out.println("Call Duration: " + call.getDuration() + "min");
+            System.out.println("Call Duration: " + call.getDuration() + " min");
             System.out.println("-----------------------");
         }
     }
@@ -45,5 +47,13 @@ public class Sim {
         }
     }
 
-
+    @Override
+    public String toString() {
+        return "Sim{" +
+                "phoneNumber='" + phoneNumber + '\'' +
+                ", remainingLoad=" + remainingLoad +
+                ", lastCalls=" + Arrays.toString(lastCalls) +
+                ", numCalls=" + numCalls +
+                '}';
+    }
 }

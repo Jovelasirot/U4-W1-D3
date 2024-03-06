@@ -11,9 +11,13 @@ public class Es1 {
         System.out.println("RectangleA:");
         rectangleA.printRectangle();
 
+        System.out.println("-----------------");
+
+        System.out.println(rectangleB);
         System.out.println("RectangleB");
         rectangleB.printRectangle();
 
+        System.out.println("-----------------");
 
         System.out.println("Sum of the rectangles:");
         Rectangle.printTwoRectangle(rectangleA, rectangleB);

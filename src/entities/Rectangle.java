@@ -36,4 +36,12 @@ public class Rectangle {
         System.out.println("Perimeter of the rectangle: " + rectanglePerimeter() +
                 " cm");
     }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "height=" + height +
+                ", width=" + width +
+                '}';
+    }
 }

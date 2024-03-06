@@ -36,4 +36,14 @@ public class Client {
         return dateOfSUb;
     }
 
+    @Override
+    public String toString() {
+        return "Client{" +
+                "codeClient='" + codeClient + '\'' +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", email='" + email + '\'' +
+                ", dateOfSUb=" + dateOfSUb +
+                '}';
+    }
 }

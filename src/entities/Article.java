@@ -35,5 +35,13 @@ public class Article {
         this.available = available;
     }
 
-
+    @Override
+    public String toString() {
+        return "Article{" +
+                "codeArticle='" + codeArticle + '\'' +
+                ", description='" + description + '\'' +
+                ", price=" + price +
+                ", available=" + available +
+                '}';
+    }
 }

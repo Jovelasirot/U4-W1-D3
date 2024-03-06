@@ -31,4 +31,13 @@ public class Cart {
             System.out.println("Article not available in that quantity");
         }
     }
+
+    @Override
+    public String toString() {
+        return "Cart{" +
+                "client=" + client +
+                ", articleList=" + articleList +
+                ", total=" + total +
+                '}';
+    }
 }

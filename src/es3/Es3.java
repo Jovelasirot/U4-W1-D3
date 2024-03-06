@@ -23,8 +23,9 @@ public class Es3 {
         cartClientA.addArticle(article1, 3);
 
         System.out.println("Cart of the client: " + clientA.getFullName() + " " +
-                cartClientA.getTotal() + "$");
+                cartClientA.getTotal() + " $");
 
-
+        System.out.println(clientA);
+        System.out.println(cartClientA);
     }
 }
