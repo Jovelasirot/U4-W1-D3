@@ -22,19 +22,19 @@ public class Rectangle {
                 sumRectanglePerimeters + " cm");
     }
 
+    public static void printRectangle(Rectangle rectangleX) {
+        System.out.println("Area of the rectangle: " + rectangleX.rectangleArea()
+                + " cm²");
+        System.out.println("Perimeter of the rectangle: " + rectangleX.rectanglePerimeter() +
+                " cm");
+    }
+
     public double rectangleArea() {
         return height * width;
     }
 
     public double rectanglePerimeter() {
         return (height * width) * 2;
-    }
-
-    public void printRectangle() {
-        System.out.println("Area of the rectangle: " + rectangleArea()
-                + " cm²");
-        System.out.println("Perimeter of the rectangle: " + rectanglePerimeter() +
-                " cm");
     }
 
     @Override

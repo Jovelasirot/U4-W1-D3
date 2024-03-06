@@ -8,14 +8,14 @@ public class Es1 {
         Rectangle rectangleB = new Rectangle(20, 50);
 
 
-        System.out.println("RectangleA:");
-        rectangleA.printRectangle();
+        System.out.println("Rectangle A:");
+        Rectangle.printRectangle(rectangleA);
 
         System.out.println("-----------------");
 
         System.out.println(rectangleB);
-        System.out.println("RectangleB");
-        rectangleB.printRectangle();
+        System.out.println("Rectangle B:");
+        Rectangle.printRectangle(rectangleB);
 
         System.out.println("-----------------");
 
